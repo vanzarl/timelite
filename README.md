@@ -38,5 +38,4 @@ Availible options:
 - `FPS`: for main refresh rate (now it is rate for reading user's keys)
 - `CLOCK_FPS`: for updating clock
 
-**don't set `FPS` > `CLOCK_FPS`**
 **`CLOCK_FPS` have to be smaller than `FPS`**
