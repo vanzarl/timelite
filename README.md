@@ -21,6 +21,8 @@ cc main.c -o timelite
 - `-c`: clock mode
 - `-t [HH:MM:SS|MM:SS|SS]`: timer (descending) mode
 - `-s`: stopwatch (ascending) mode
+- `-n`: show name before clock/timer/stopwatch
+- `-h`: help
 
 ### Key bindings
 
@@ -32,7 +34,7 @@ cc main.c -o timelite
 
 - `./timelite -t :69`: timer for 69 seconds *(69 seconds = 1 minute and 9 second)*;
 - `./timelite -t 50:`: timer for 50 minutes *(50: means 50:00)*;
-- `./timelite -t 25: "coding"`: pomodoro timer with name `coding` for 25 minutes *(25: means 25:00)*;
+- `./timelite -t 25: -n "coding"`: pomodoro timer with name `coding` for 25 minutes *(25: means 25:00)*;
 
 ## FPS
 
