@@ -5,10 +5,10 @@ A simple console utility for displaying a clock, timer, and stopwatch.
 
 ## Build
 
-### General
+### For Linux
 
 ```console
-./build.sh
+cc main.c -o timelite
 ./timelite
 ```
 
